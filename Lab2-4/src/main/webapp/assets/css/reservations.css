@@ -1,0 +1,38 @@
+.container {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+#details {
+    text-align: center;
+    color: white;
+}
+
+#details table {
+    color: white;
+}
+
+#details table tr td {
+    padding: 3px;
+}
+
+#details table tr td input[type="button"],
+#details table tr td input[type="submit"] {
+    padding: 2px;
+    min-width: 90px;
+}
+
+
+
+.form i {
+    font-size: 32px;
+    vertical-align: bottom;
+    margin-top: 10px;
+}
+
+.form span {
+    float: right;
+    font-size: 18px;
+    cursor: pointer;
+    transition: color .2s linear;
+}
